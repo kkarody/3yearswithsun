@@ -1,0 +1,146 @@
+/* Общие стили */
+body {
+    font-family: 'Helvetica Neue', sans-serif; /* Современный шрифт */
+    line-height: 1.7;
+    background-color: #fffafa ; /* Светлый фон */
+    color: #210000; /* Темный текст для контраста */
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовки */
+h1, h2, h3, h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #4b0202 !important;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #4b0202 !important;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #4b0202 !important;
+}
+
+
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+}
+
+
+/* Слайдер */
+.carousel img {
+    border-radius: 20px; /* Меньшие скругления */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.3); /* Легкий затемняющий фон */
+    border-radius: 15px;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+#home {
+    padding: 5rem 0; /* Добавлены отступы для красивого расположения контента */
+    text-align: center;
+    position: relative;
+    background-color: #fffafa !important;
+}
+
+#home h1 {
+    color: #4b0202 !important;
+    font-size: 1.5rem; /* Размер заголовка */
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+#home p {
+    color: #210000 !important;
+    font-size: 1.25rem;
+    font-weight: 300; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Легкая тень для текста */
+    margin-bottom: 2rem;
+}
+
+
+
+/* Кнопки */
+.btn-primary {
+    background-color: #570303; /* Синий цвет для кнопок */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #570303; /* Темно-синий цвет при наведении */
+}
+
+/* Футер */
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: #fffafa;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fffafa;
+}
+
+.countdown {
+    font-size: 18pt !important;
+    color: #210000;
+    text-align: center;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#letter {
+    background-color: #fffafa; 
+}
+
+/* Модальные окна */
+.modal-header {
+    background-color: #fffafa;
+    color: #210000;
+}
+
+.modal-content {
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-body {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #210000;
+}
+
+
+/* Мобильная адаптивность */
+@media (max-width: 768px) {
+    .home h1 {
+        font-size: 2.5rem; /* Уменьшаем заголовок */
+    }
+
+    .home p {
+        font-size: 1.1rem; /* Уменьшаем текст */
+    }
+
+    .countdown {
+        font-size: 1.8rem; /* Уменьшаем размер счётчика */
+    }
+}
